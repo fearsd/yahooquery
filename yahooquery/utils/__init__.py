@@ -10,7 +10,7 @@ from requests.packages.urllib3.util.retry import Retry
 from requests_futures.sessions import FuturesSession
 
 
-DEFAULT_TIMEOUT = 5
+DEFAULT_TIMEOUT = 60
 
 USER_AGENT_LIST = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
